@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #232323;
+  color: #fff;
+}
+#largeImg {
+  height: 380px;
+  display: block;
+  margin: 40px auto 0;
+  border: 8px double #f00;
+  background: #ff0;
+  border-radius: 15px;
+}
+.heading {
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px;
+  text-shadow: 2px 2px 2px #f00;
+}
+.smImg-wrapper {
+  text-align: center;
+}
+.smImg {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  margin: 10px;
+  border: 8px double #f90;
+  background: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.smImg:hover {
+  background: #000;
+  transform: scale(1.18);
+}

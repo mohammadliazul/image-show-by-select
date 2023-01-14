@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Md. Liazul Islam">
+    <title>Image Show by Select</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="largeImg" src="Images/birds/bird-1.jpg" alt="Large Image" >
+    <p class="heading">Image Show by Select</p>
+    <!-- Using onclick in HTML -->
+    <div class="smImg-wrapper">
+        <img src="Images/birds/bird-1.jpg" alt="Small Image" class="smImg" onclick="changeImg(this)">
+        <img src="Images/birds/bird-2.jpg" alt="Small Image" class="smImg" onclick="changeImg(this)">
+        <img src="Images/birds/bird-3.jpg" alt="Small Image" class="smImg" onclick="changeImg(this)">
+        <img src="Images/birds/bird-4.jpg" alt="Small Image" class="smImg" onclick="changeImg(this)">
+        <img src="Images/birds/bird-5.jpg" alt="Small Image" class="smImg" onclick="changeImg(this)">
+        <img src="Images/birds/bird-6.jpg" alt="Small Image" class="smImg" onclick="changeImg(this)">
+    </div>
+    
+    <!-- Using onclick in JS -->
+    <div class="smImg-wrapper">
+        <img src="Images/animals/animal-1.jpg" alt="Small Image" class="smImg">
+        <img src="Images/animals/animal-2.jpg" alt="Small Image" class="smImg">
+        <img src="Images/animals/animal-3.jpg" alt="Small Image" class="smImg">
+        <img src="Images/animals/animal-4.jpg" alt="Small Image" class="smImg">
+        <img src="Images/animals/animal-5.jpg" alt="Small Image" class="smImg">
+        <img src="Images/animals/animal-6.jpg" alt="Small Image" class="smImg">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
